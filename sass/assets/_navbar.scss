@@ -1,0 +1,35 @@
+header {
+    background-color: #0cb7f2;
+    height: 50px;
+  }
+  
+  .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #0cb7f2 !important;
+  }
+  
+  .container-fluid {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar-nav {
+    color: black;
+    text-align: left;
+    margin-inline: 7px;
+    margin-left: 60%;
+  }
+  
+  .logoContainer {
+    height: 45px;
+    width: 65px;
+  }
+  
+  .logo {
+    height: 100%;
+    width: 100%;
+  }
+  

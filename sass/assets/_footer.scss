@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0cb7f2;
+    height: 100%;
+  }
+  
+  footer ul li {
+    list-style: none;
+  }
+  
+  .redes {
+    display: flex;
+  }
+  
+  .redes li {
+    margin-left: 8px;
+  }
+  
+  .logoRedes {
+    height: 40px;
+    width: 40px;
+  }
+
+  .sticky {
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 95%;
+    bottom: 2%;
+  }
