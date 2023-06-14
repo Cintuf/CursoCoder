@@ -1,10 +1,9 @@
-/* Error: expected "{".
+/* Error: Can't find stylesheet to import.
  *   ,
- * 7 |     margin margin-top: 20px;
- *   |                            ^
+ * 3 | @use'assets/navbar';
+ *   | ^^^^^^^^^^^^^^^^^^^
  *   '
- *   sass\_Contacto.scss 7:28  @use
- *   sass\estilos.scss 7:1     root stylesheet */
+ *   sass\estilos.scss 3:1  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 7 \2502      margin margin-top: 20px;\d\a   \2502                             ^\a   \2575 \a   sass\\_Contacto.scss 7:28  @use\a   sass\\estilos.scss 7:1     root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @use'assets/navbar';\d\a   \2502  ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\estilos.scss 3:1  root stylesheet";
 }
