@@ -119,60 +119,8 @@ main .sobre-nosotros {
   text-align: justify;
 }
 
-/* Galeria */
-.portafolio {
-  background: #194b7a;
-}
 
-.galeria-port {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.imagen-port {
-  width: 24%;
-  margin-bottom: 10px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-}
-
-.imagen-port > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.hover-galeria {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transform: scale(0);
-  background: #194b7a;
-  transition: transform 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.hover-galeria img {
-  width: 50px;
-}
-
-.hover-galeria p {
-  color: #fff;
-}
-
-.imagen-port:hover .hover-galeria {
-  transform: scale(1);
-}
-
-/* Clients */
+/* Disciplinas */
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -253,11 +201,11 @@ main .sobre-nosotros {
   .imagen-about-us {
     width: 90%;
   }
-  /* Galeria */
+ 
   .imagen-port {
     width: 44%;
   }
-  /* Clientes */
+
   .cards {
     flex-direction: column;
     justify-content: center;
@@ -370,9 +318,13 @@ p {
   margin-top: 2px;
   margin-right: 0px;
   margin-left: 0px;
-  /* transition: all 1s; */
-  transition: all 1s;
   border-radius: 40px;
+
 }
+
+.btn-primary {
+  transform: translateY(3px);
+}
+
 
 /*# sourceMappingURL=estilos.css.map */
