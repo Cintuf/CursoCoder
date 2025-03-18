@@ -73,7 +73,7 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="peso" class="form-label">Peso estimado (kg)</label>
+                    <label for="peso" class="form-label">Peso estimado (kg/lt)</label>
                     <input type="number" class="form-control" id="peso" required>
                 </div>
                 <div class="mb-3">
@@ -83,8 +83,10 @@
                 <div class="mb-3">
                     <label class="form-label">Urgencia del Envío</label>
                     <div>
-                        <input type="radio" name="urgencia" value="Normal" required> Normal
-                        <input type="radio" name="urgencia" value="Expreso" required> Expreso
+                        <input type="radio" name="urgencia" value="Normal" required> Urgente
+                        <input type="radio" name="urgencia" value="Expreso" required> Normal
+                        <input type="radio" name="urgencia" value="Normal" required> Planificado
+                        <input type="radio" name="urgencia" value="Expreso" required> Pre-Campaña
                     </div>
                 </div>
                 <div class="mb-3">
